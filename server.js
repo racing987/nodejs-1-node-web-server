@@ -11,7 +11,7 @@ app.use((req,res,next)=>{
 })
 
 app.use((req,res,next) => {
-    req.render('maintainence')
+    req.render('maintainence');
 })
 
 app.get('/',(req,res) => {
